@@ -20,6 +20,9 @@
             <jet-nav-link :href="route('dashboard')" :active="route().current('dashboard')">
               Dashboard
             </jet-nav-link>
+            <jet-nav-link :href="route('curriculum-vitae')" :active="route().current('curriculum-vitae')">
+              Curriculum Vitae
+            </jet-nav-link>
           </ul>
 
           <!-- Right Side Of Navbar -->
